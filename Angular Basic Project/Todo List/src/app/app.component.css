@@ -1,0 +1,28 @@
+/* Navbar styles */
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Center the router outlet content */
+.router-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+/* Add padding to the router outlet content */
+.router-container > * {
+  margin: 20px;
+}

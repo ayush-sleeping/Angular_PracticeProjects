@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Todo List</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  
+</body>
+</html>
+
+<!-- 
+  First Angular will load this page, 
+  After getting app-root, it load the page app.component.html.
+
+  app-routing.module.ts is controlling the Navigation of Header.
+
+  And in app.component.html we have app-todos, Now it will load todos.component.html.
+
+  ANd in todos.component.html we have app-add-todo and add-todo-item, Now it will also load  add-todo-compenent.html and todo-item.component.html
+-->

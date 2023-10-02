@@ -1,0 +1,29 @@
+
+.footer {
+   background-color: #007bff; 
+   color: #fff; 
+   padding: 10px 0; 
+   width: 100%; 
+   text-align: center;
+   position: absolute;
+   bottom: 0;
+  }
+  /* about.component.css */
+.jumbotron {
+   background-color: #f8f9fa; /* Light background color for the jumbotron */
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+ }
+ 
+ .jumbotron h1 {
+   color: #007bff; /* Primary color for the heading */
+ }
+ 
+ .jumbotron ul {
+   list-style: disc inside; /* Use disc bullets for the list */
+   margin-left: 20px; /* Add some indentation to the list */
+ }
+ 
+ /* Rest of your CSS styles */
+ 

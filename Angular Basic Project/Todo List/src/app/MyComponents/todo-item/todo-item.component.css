@@ -1,0 +1,33 @@
+.strike{
+   text-decoration: line-through;
+}
+/* Todo item styles */
+.todo-item {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 10px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ }
+ 
+ /* Strike-through text for completed todos */
+ .completed {
+   text-decoration: line-through;
+ }
+ 
+ /* Checkbox styles */
+ .form-check-input {
+   margin-right: 10px;
+ }
+ 
+ /* Delete button styles */
+ .btn-danger {
+   background-color: #dc3545;
+   border-color: #dc3545;
+ }
+ 
+ .btn-danger:hover {
+   background-color: #c82333;
+ }
+ 

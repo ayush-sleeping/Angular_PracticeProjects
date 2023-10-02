@@ -1,0 +1,42 @@
+/* Container styles */
+.container {
+   margin-top: 20px;
+ }
+ 
+ /* Heading styles */
+ h1, h4 {
+   color: #333;
+ }
+ 
+ /* Message styles */
+ .alert-info {
+   background-color: #d1ecf1;
+   border-color: #bee5eb;
+   color: #0c5460;
+ }
+ 
+ /* Center the message */
+ .alert-info p {
+   text-align: center;
+ }
+ /* todos.component.css */
+.todos-heading-box {
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.todos-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+/* app.component.css */
+.todo-box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

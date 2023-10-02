@@ -1,0 +1,19 @@
+<!-- add-todo.component.html -->
+<div class="container mt-4">
+  <div class="card todo-box">
+    <div class="card-body">
+      <h4 class="card-title">Add a Todo</h4>
+      <form (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input type="text" [(ngModel)]="title" class="form-control" id="title" name="title" placeholder="Enter a task title">
+        </div>
+        <div class="mb-3">
+          <label for="desc" class="form-label">Description</label>
+          <input type="text" class="form-control" name="desc" id="desc" [(ngModel)]="desc" placeholder="Enter a task description">
+        </div>
+        <button type="submit" class="btn btn-primary custom-btn">Add Todo</button>
+      </form>
+    </div>
+  </div>
+</div>
